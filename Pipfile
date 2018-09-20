@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+tensorflow = "*"
+opencv-python = "*"
+matplotlib = "*"
+svgwrite = "*"
+scipy = "*"
+sklearn = "*"
+
+[requires]
+python_version = "3.5"
