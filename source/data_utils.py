@@ -93,7 +93,7 @@ def npz_to_dict(npz_data):
 
     """
     out_dict = {}
-    for key in npz_data.iterkeys():
+    for key in npz_data.keys():
         # Discard npz object key.
         if key != 'arr_0':
             if isinstance(npz_data[key], np.ndarray):
